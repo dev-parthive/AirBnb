@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../Container/Container";
 import Logo from "./Logo";
 import Search from "./Search";
+import MenuDropDown from "./MenuDropDown";
 
 function Navbar() {
   return (
@@ -15,7 +16,9 @@ function Navbar() {
             <div>
               <Search></Search>
             </div>
-            <div>Menu</div>
+            <div>
+              <MenuDropDown></MenuDropDown>
+            </div>
           </div>
         </Container>
       </div>
